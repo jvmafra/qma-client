@@ -6,4 +6,4 @@ Cadastro de aluno e login.
 
 `$ npm install`
 
-`$ npm start`
+`$ npm serve`
