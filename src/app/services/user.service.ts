@@ -16,14 +16,13 @@ export class UserService {
   }
 
   public registerUser(user) {
-    return this.http.post(this.serverHost + 'aluno/signup', JSON.stringify(user), {
+    return this.http.post(this.serverHost + 'signup', JSON.stringify(user), {
         headers: this.headers
     });
   }
 
   public loginUser(user) {
-    // console.log(this.http.post(this.serverHost + 'aluno/login', JSON.stringify(user)));
-    return this.http.post(this.serverHost + 'aluno/login', JSON.stringify(user), {
+    return this.http.post(this.serverHost + 'login', JSON.stringify(user), {
       headers: this.headers
     });
   }

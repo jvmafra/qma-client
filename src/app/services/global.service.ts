@@ -5,7 +5,7 @@ export class GlobalService {
   private serverHost: String;
 
   constructor() {
-    this.serverHost = 'http://127.0.0.1:8092/';
+    this.serverHost = 'http://127.0.0.1:9090/';
   }
 
   public getServerHost() {
