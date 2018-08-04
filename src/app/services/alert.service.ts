@@ -18,7 +18,7 @@ export class AlertService {
   }
 
   public showErrorAlert(textHead: string, text: string) {
-    this.$.uiAlert({
+    $.uiAlert({
       textHead: textHead, // header
       text: text, // Text
       bgcolor: '#cc0000', // background-color
