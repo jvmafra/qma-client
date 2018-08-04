@@ -26,6 +26,7 @@ export class UserComponent {
               console.log(data);
             }, err => {
                 console.log(err.error.message);
+                this.alertService.showErrorAlert('Cadastro invalido', err.error.message);
             }
           );
     }
@@ -37,6 +38,7 @@ export class UserComponent {
                 console.log(data);
             }, err => {
                 console.log(err.error.message);
+                this.alertService.showErrorAlert('Login invalido', err.error.message);
             }
           );
     }
