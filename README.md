@@ -6,4 +6,6 @@ Cadastro de aluno e login.
 
 `$ npm install`
 
-`$ npm serve`
+`$ ng serve`
+
+A aplicação cliente rodará em localhost:4200
